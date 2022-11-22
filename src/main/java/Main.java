@@ -8,6 +8,7 @@ import java.util.Base64;
 public class Main {
 
     public static void main(String[] args) {
+        //测试OOM
         ArrayList<Object> list = new ArrayList<>(100000);
         while (true) {
             list.add(new Object());
